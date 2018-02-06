@@ -1,5 +1,13 @@
-module Lib (libfun) where
+module Lib (libfun, numUniques) where
 
-libfun :: Integer -> Integer
+import Data.List
+
+libfun :: Int -> Int
 libfun x = x + 1
+
+numUniques :: (Eq a) => [a] -> Int
+
+numUniques = length . nub
+
+
 
