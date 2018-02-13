@@ -13,5 +13,7 @@ stringOfDay t = show t
 demo1 :: String
 demo1 = stringOfDay foo
 
+-- todo How the hell do you define/export/import the enum so that other modules can use it?
+
 
 
