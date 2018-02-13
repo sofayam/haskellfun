@@ -1,6 +1,7 @@
 module Main where
 
 import Lib
+import SimpleTypes
 
 main :: IO ()
 main = 
@@ -12,3 +13,6 @@ main =
     do 
       putStrLn ("numUniques " ++ (show y))
       putStrLn ("hello world " ++ (show x))
+      putStrLn ("showing SimpleTypes demo1 " ++ demo1)
+      putStrLn ("showing SimpleTypes demo2 " ++ (stringOfDay foo))
+      

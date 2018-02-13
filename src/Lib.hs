@@ -2,6 +2,7 @@ module Lib (libfun, numUniques) where
 
 import Data.List
 
+
 libfun :: Int -> Int
 libfun x = x + 1
 
