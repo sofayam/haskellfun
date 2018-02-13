@@ -14,5 +14,5 @@ main =
       putStrLn ("numUniques " ++ (show y))
       putStrLn ("hello world " ++ (show x))
       putStrLn ("showing SimpleTypes demo1 " ++ demo1)
-      putStrLn ("showing SimpleTypes demo2 " ++ (stringOfDay foo))
+      putStrLn ("showing SimpleTypes demo2 " ++ (stringOfDay Di))
       

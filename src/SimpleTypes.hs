@@ -1,4 +1,4 @@
-module SimpleTypes ( demo1, Tag, stringOfDay, foo) where
+module SimpleTypes ( demo1, Tag(..), stringOfDay, foo) where
 
 
 data Tag = So | Mo | Di deriving Show
@@ -13,7 +13,6 @@ stringOfDay t = show t
 demo1 :: String
 demo1 = stringOfDay foo
 
--- todo How the hell do you define/export/import the enum so that other modules can use it?
 
 
 
